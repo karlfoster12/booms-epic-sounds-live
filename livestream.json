@@ -1,7 +1,7 @@
 {
   "enabled": true,
-  "live": true,
-  "title": "Test stream",
-  "message": "BoomEpicKill is live now!",
-  "wentLiveAt": "2026-07-07T11:00:00Z"
+  "live": false,
+  "title": "",
+  "message": "",
+  "startedAt": ""
 }
