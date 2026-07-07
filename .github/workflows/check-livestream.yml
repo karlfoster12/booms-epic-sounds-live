@@ -1,0 +1,33 @@
+name: Check Livestream
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+
+jobs:
+  check-livestream:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Check livestream status
+        run: npm run check
+        env:
+          KICK_CLIENT_ID: ${{ secrets.KICK_CLIENT_ID }}
+          KICK_CLIENT_SECRET: ${{ secrets.KICK_CLIENT_SECRET }}
+          GITHUB_TOKEN: ${{ secrets.LIVE_REPO_TOKEN }}
+          GITHUB_OWNER: karlfoster12
+          GITHUB_REPO: booms-epic-sounds-live
+          GITHUB_BRANCH: main
+          KICK_CHANNEL: boomepickill

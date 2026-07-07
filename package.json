@@ -1,0 +1,15 @@
+{
+  "name": "booms-epic-sounds-live",
+  "version": "1.0.0",
+  "description": "Live status updater for Booms Epic Sounds",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "check": "node index.js --once"
+  },
+  "dependencies": {
+    "@octokit/rest": "^21.1.1",
+    "axios": "^1.18.1",
+    "dotenv": "^16.6.1"
+  }
+}
