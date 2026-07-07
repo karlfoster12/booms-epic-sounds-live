@@ -69,7 +69,9 @@ const isLive = stream?.is_live === true;
   live: isLive,
   title: isLive ? channel.stream_title : "",
   category: isLive ? channel.category?.name ?? "" : "",
-  message: isLive ? "BoomEpicKill is live now!" : "",
+  message: isLive
+    ? `BoomEpicKill is live: ${channel.stream_title}`
+    : "",
   wentLiveAt: isLive ? stream.start_time : ""
 };
   }
