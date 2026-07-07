@@ -2,7 +2,7 @@ require("dotenv").config();
 
 const KickService = require("./services/KickService");
 const GitHubService = require("./services/GitHubService");
-const LivestreamService = require("./services/LivestreamService");
+const LivestreamService = require("./services/LiveStreamService");
 
 const CHECK_INTERVAL_MS = Number(process.env.CHECK_INTERVAL_MS || 60000);
 
