@@ -1,8 +1,8 @@
 {
   "enabled": true,
-  "live": true,
-  "title": "DEEP WILDERNESS",
-  "category": "Old School RuneScape",
-  "message": "BoomEpicKill is live: DEEP WILDERNESS",
-  "wentLiveAt": "2026-07-25T14:59:00Z"
+  "live": false,
+  "title": "",
+  "category": "",
+  "message": "",
+  "wentLiveAt": ""
 }
