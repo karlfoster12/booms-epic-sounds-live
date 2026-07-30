@@ -1,8 +1,8 @@
 {
   "enabled": true,
-  "live": true,
-  "title": "100 keys Wilderness Challenge",
-  "category": "Old School RuneScape",
-  "message": "BoomEpicKill is live: 100 keys Wilderness Challenge",
-  "wentLiveAt": "2026-07-30T15:00:12Z"
+  "live": false,
+  "title": "",
+  "category": "",
+  "message": "",
+  "wentLiveAt": ""
 }
