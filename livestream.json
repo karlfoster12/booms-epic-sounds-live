@@ -1,8 +1,8 @@
 {
   "enabled": true,
-  "live": true,
-  "title": "GIVEAWAYS GAMBLING!",
-  "category": "Slots & Casino",
-  "message": "BoomEpicKill is live: GIVEAWAYS GAMBLING!",
-  "wentLiveAt": "2026-10-04T22:53:35Z"
+  "live": false,
+  "title": "",
+  "category": "",
+  "message": "",
+  "wentLiveAt": ""
 }
